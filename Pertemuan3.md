@@ -19,9 +19,45 @@ NIM : 24060124140194
 Dua Jari
 <img width="1051" height="942" alt="Screenshot (793)" src="https://github.com/user-attachments/assets/2ea220cb-4117-49f2-abea-014384276ff4" />
 
+<img width="1056" height="955" alt="Screenshot (806)" src="https://github.com/user-attachments/assets/67fbdea2-4259-422f-b09e-cbae493c3729" />
+
+Jari telunjuk & tengah → lurus
+Jari lain → menekuk
+  Analisis XYZ:
+  Rotasi Z (utama)
+glRotatef(angle, 0,0,1);
+
+Menekuk jari (flexion):
+Jari telunjuk & tengah → rotasi kecil (≈ 0°)
+Jari lain → rotasi besar (≈ 60°–90°)
+
+Semua terjadi di bidang XY (rotasi sumbu Z)
+
 Menengadah
 <img width="1042" height="942" alt="Screenshot (794)" src="https://github.com/user-attachments/assets/e7e4ad9e-26ee-488f-b1ba-94eb35427332" />
+
+<img width="1082" height="961" alt="Screenshot (807)" src="https://github.com/user-attachments/assets/ab0793f2-e877-4fa0-8bcc-f1e8962815a4" />
+
+Telapak menghadap ke atas
+Pergelangan diputar
+  Analisis XYZ:
+  Rotasi X 
+glRotatef(angle, 1,0,0);
+
+Membalik telapak ke atas
+Rotasi terhadap sumbu X
+Gerakan terjadi di bidang YZ
+
 
 Mengepal
 <img width="1045" height="942" alt="Screenshot (795)" src="https://github.com/user-attachments/assets/d8343617-4cc0-4fd3-88a8-864324306be7" />
 
+<img width="1085" height="964" alt="Screenshot (808)" src="https://github.com/user-attachments/assets/6ae49120-bebe-4929-843a-24269b0b5ed1" />
+
+Semua jari menekuk ke dalam
+Telapak sedikit ikut rotasi
+  Analisis XYZ:
+  Rotasi Z (utama)
+glRotatef(angle, 0,0,1);
+
+Menekuk semua ruas jari
