@@ -1,3 +1,6 @@
+Andiny Kaherany Suhartady
+NIM : 24060124140194
+
 Robot Arm 3D dengan Visualisasi Sumbu XYZ
 Identitas
 Nama: Andiny Kaherany Suhartady
